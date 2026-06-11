@@ -1,0 +1,11 @@
+data/
+cleaned_data/
+models/
+
+__pycache__/
+*.pyc
+
+.vscode/
+.idea/
+
+.ipynb_checkpoints/
