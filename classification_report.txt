@@ -1,0 +1,41 @@
+CREDIT SCORING MODEL - CLASSIFICATION REPORT
+
+Model: Optimized XGBoost Classifier
+
+Classification Report:
+
+```
+          precision    recall    f1-score    support
+```
+
+Good Credit (0)
+0.87       0.84       0.85       414
+
+Bad Credit (1)
+0.60       0.64       0.62       150
+
+Accuracy:                                0.79       564
+
+Macro Average
+0.73       0.74       0.74       564
+
+Weighted Average
+0.79       0.79       0.79       564
+
+Performance Summary:
+
+Accuracy  : 78.90%
+Precision : 59.63%
+Recall    : 64.00%
+F1-Score  : 61.74%
+ROC-AUC   : 82.87%
+
+Interpretation:
+
+The model achieved an overall accuracy of 78.90% in predicting customer creditworthiness. The recall score of 64.00% indicates that the model successfully identifies a substantial proportion of risky customers, which is critical in credit risk assessment. The F1-score of 61.74% demonstrates a balanced trade-off between precision and recall. Furthermore, the ROC-AUC score of 82.87% shows strong discriminative ability between good and bad credit applicants.
+
+The model was enhanced using data cleaning, feature engineering, SMOTE-based class balancing, feature selection, hyperparameter tuning, and XGBoost optimization. These techniques improved model robustness and generalization while reducing the risk of overfitting.
+
+Conclusion:
+
+The developed credit scoring model provides reliable and balanced predictions for credit risk evaluation. It can assist financial institutions in identifying potentially risky applicants while maintaining strong overall predictive performance.
